@@ -7,16 +7,56 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container" id="cont">
-        <img src="img/perfil.jpg" alt="img.jpg" class="perfil">
-        <button>Quem Sou</button>
-        <button>Certificados</button>
-        <button>Formações</button>
-        <button>Projetos</button>
-        <button>Contato</button>
-    
-    </div>
+    <div class="container">
 
-    
+        <!-- INÍCIO -->
+  <section id="inicio" class="secao ativa">
+    <img src="img/perfil.jpg" alt="img.jpg" class="perfil">
+    <button data-target="quemSou">Quem sou</button>
+    <button data-target="certificados">Certificados</button>
+    <button data-target="formacoes">Formações</button>
+    <button data-target="projetos">Projetos</button>
+    <button data-target="contato">Contato</button>
+  </section>
+
+  <!-- QUEM SOU -->
+  <section id="quemSou" class="secao">
+    <h2>Quem sou</h2>
+    <p><strong>NOME: </strong>Raphael Henrique dos Santos</p>
+    <p><strong>IDADE: </strong>22 anos</p>
+    <p><strong>CIDADE: </strong>Navegantes - SC</p>
+
+    <button class="btnVoltar">Início</button>
+  </section>
+
+  <!-- CERTIFICADOS -->
+  <section id="certificados" class="secao">
+    <h2>Certificados</h2>
+    <p>Certificado em Desenvolvimento Web - Guanabara</p>
+    <button class="btnVoltar">Início</button>
+  </section>
+
+  <!-- FORMAÇÕES -->
+  <section id="formacoes" class="secao">
+    <h2>Formações</h2>
+    <button class="btnVoltar">Início</button>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="secao">
+    <h2>Projetos</h2>
+    <button class="btnVoltar">Início</button>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="secao">
+    <h2>Contato</h2>
+    <button class="btnVoltar">Início</button>
+  </section>
+
+     </div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
