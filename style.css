@@ -21,10 +21,10 @@ body {
     width: 100%;
     border-radius: 10px;
     margin: 14px;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.401);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border: 2px solid rgb(255, 255, 255, 0.2);
+    border: 2px solid #ffffff44;
     justify-content: center;
     align-items: center;
 }
@@ -43,9 +43,14 @@ button {
     padding: 10px;
     border: 0;
     border-radius: 10px;
-    background-color: #2834DE;
-    color: #fff;
+    background-color: transparent;
+    border: 2px solid #ffffff44;
     cursor: pointer;
     margin: 10px auto;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.232);
+}
+
+button:hover {
+    background-color: #91919173;
 }
 
