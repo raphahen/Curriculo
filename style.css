@@ -90,3 +90,9 @@ p {
     text-align: center;
 }
 
+a {
+    color: #ffffffcc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
